@@ -4,11 +4,19 @@ import "./globals.css";
 import NavbarDemo from "./components/NavbarDemo";
 import BackgroundBeamsWithCollisionDemo from "@/app/components/herosection";
 import ThreeDCardDemo from "@/app/components/head";
+
 import BentoGridDemo from "@/app/components/actitivies"
-import AppleCardsCarouselDemo from "@/app/components/membars"
+import AppleCardsCarouselDemo from "@/app/components/teams/membars"
 import MeteorsDemo from "@/app/components/meteors"
 import MeteorsD from "@/app/components/domain"
-
+import Slider from "@/app/components/Slider"
+import Footer from "./components/Footer";
+import OperationalTeamCarouselDemo from "@/app/components/teams/operation"
+import CreativeTeamCarouselDemo from "@/app/components/teams/creative"
+import DesignTeamCarouselDemo from "@/app/components/teams/design"
+import CONTENT from "@/app/components/teams/content"
+import LLCTeamCarouselDemo from "@/app/components/teams/llc"
+import Outreach from "@/app/components/teams/outreachandcom"
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -35,19 +43,29 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <NavbarDemo />
-        
+        <NavbarDemo/>
+
         <BackgroundBeamsWithCollisionDemo />
-
+          <Slider/>
         <MeteorsDemo />
-
+        
         <MeteorsD />
         
-<div className="flex place-content-around">
+        <div className="flex place-content-around ">
         <ThreeDCardDemo />
-       
         </div>
+       
+        <div className="">
        <AppleCardsCarouselDemo />
+       <LLCTeamCarouselDemo/>
+       <OperationalTeamCarouselDemo/>
+       <CreativeTeamCarouselDemo/>
+       <Outreach/>
+       <CONTENT/>
+       <DesignTeamCarouselDemo/>
+       
+</div>
+       <Footer/>
         {children}
       </body>
     </html>
