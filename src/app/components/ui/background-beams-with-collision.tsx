@@ -555,7 +555,7 @@ export const BackgroundBeamsWithCollision = ({
     <div
       ref={parentRef}
       className={cn(
-        " md:h-[49rem] bg-gradient-to-b from-white to-neutral-100 dark:from-neutral-950 dark:to-neutral-950 relative flex items-center w-full justify-center overflow-hidden ",
+        " md:h-[55rem] bg-gradient-to-b from-white to-neutral-100 dark:from-neutral-950 dark:to-neutral-950 relative flex items-center w-full justify-center overflow-hidden  ", 
         // h-screen if you want bigger
         className
       )}
@@ -572,7 +572,7 @@ export const BackgroundBeamsWithCollision = ({
       {children}
       <div
         ref={containerRef}
-        className="absolute bottom-0 bg-neutral-100 w-full inset-x-0 pointer-events-none"
+        className="absolute bottom-0 bg-neutral-100 w-full inset-x-0 pointer-events-none "
         style={{
           boxShadow:
             "0 0 24px rgba(34, 42, 53, 0.06), 0 1px 1px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(34, 42, 53, 0.04), 0 0 4px rgba(34, 42, 53, 0.08), 0 16px 68px rgba(47, 48, 55, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1) inset",
