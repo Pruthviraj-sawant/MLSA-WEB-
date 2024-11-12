@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import pruthvi from "@/app/img/villain 3.jpg";
+
 import React from "react";
 import { Carousel, Card } from "@/app/components/ui/apple-cards-carousel";
 
@@ -37,7 +37,7 @@ const DummyContentOutreach = () => {
               audiences and partners.
             </p>
             <Image
-              src={pruthvi}
+              src={""}
               alt="Outreach team mockup"
               height="500"
               width="500"

@@ -135,7 +135,7 @@ export default function MeteorsDemo() {
     <div className="flex flex-col mt-20 px-4" id="Aboutus">
       {/* Title Section */}
       <div className="text-[2rem] md:text-[3rem] ml-0 md:ml-10 flex space-x-2 justify-center md:justify-start">
-        About <div className="text-blue-700"> us</div>
+        About <div className="text-blue-700 ml-4"> us</div>
       </div>
 
       {/* Card Section */}

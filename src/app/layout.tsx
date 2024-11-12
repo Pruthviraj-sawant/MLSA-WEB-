@@ -17,6 +17,7 @@ import DesignTeamCarouselDemo from "@/app/components/teams/design"
 import CONTENT from "@/app/components/teams/content"
 import LLCTeamCarouselDemo from "@/app/components/teams/llc"
 import Outreach from "@/app/components/teams/outreachandcom"
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -66,6 +67,7 @@ export default function RootLayout({
        
 </div>
        <Footer/>
+   
         {children}
       </body>
     </html>

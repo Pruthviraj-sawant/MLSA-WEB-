@@ -53,7 +53,7 @@ const Slider: React.FC = () => {
   }, []);
 
   return (
-    <div className="slider-container overflow-hidden relative w-full max-w-8xl h-[30rem] mx-auto ">
+    <div className="slider-container overflow-hidden relative w-full max-w-8xl h-[35rem] mx-auto ">
       <div
         className="slider flex transition-transform duration-1000 ease-linear "
         style={{ transform: `translateX(-${currentSlide * 100}%)` }}
@@ -71,7 +71,7 @@ const Slider: React.FC = () => {
       </div>
 
       {/* Optional Dots for navigation */}
-      <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex space-x-7 ">
+      <div className="absolute -bottom-0 mt-10 left-1/2 transform -translate-x-1/2 flex space-x-7 ">
         {cardData.map((_, index) => (
           <div
             key={index}

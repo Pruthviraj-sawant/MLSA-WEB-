@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import pruthvi from "@/app/img/villain 3.jpg"
+
 import React from "react";
 import { Carousel, Card } from "@/app/components/ui/apple-cards-carousel";
 
@@ -67,7 +67,7 @@ const DummContent = () => {
                 Aliquid earum aperiam itaque consequatur id, quia doloremque, cupiditate error distinctio eligendi dolore mollitia in libero quasi voluptatibus aliquam iure dicta fuga minus ab ipsa minima similique? Tempore, alias minima!
               </p>
               <Image
-                src={pruthvi}
+                src={""}
                 alt="Macbook mockup from Aceternity UI"
                 height="200"
                 width="200"

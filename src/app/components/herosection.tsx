@@ -127,17 +127,23 @@ export default function BackgroundBeamsWithCollisionDemo() {
 
         {/* Text and logo with higher z-index */}
         <div className="mt-40 lg:mt-60 relative z-10 flex flex-col lg:flex-row justify-center items-center">
-          <Image
-            src={mlsalogo}
-            alt="mlsa-logo"
-            height={10}
-            width={260}
-            className="mb-8 lg:mb-0 lg:mr-10 relative z-20"
-          />
-          <p className="text-[2rem] lg:text-[5rem] xl:text-[9rem] text-center font-extrabold relative z-20">
-            MLSA
-          </p>
-        </div>
+  <Image
+    src={mlsalogo}
+    alt="mlsa-logo"
+    height={10}
+    width={260}
+    className="mb-8 lg:mb-0 lg:mr-10 relative z-20"
+  />
+  <p className="text-[2rem] lg:text-[5rem] xl:text-[9rem] text-center font-extrabold relative z-20">
+    MLSA
+    <span className="block text-[1.5rem] lg:text-[1rem] xl:text-[2rem] font-semibold relative -top-1 lg:-top-2 xl:-top-9 ml-1 lg:ml-2 xl:ml-4 text-blue-300">
+      DYPCET CHAPTER
+    </span>
+  </p>
+</div>
+
+
+
 
         <div className="bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 py-4 relative z-10">
           <div className="text-[1.2rem] lg:text-[2rem] xl:text-[3rem] text-center font-bold">

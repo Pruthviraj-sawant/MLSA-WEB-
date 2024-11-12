@@ -102,35 +102,31 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
             )}
           ></div>
 
-          <div
-            className={cn(
-              "flex flex-row justify-start gap-4 pl-4",
-              "max-w-7xl mx-auto" // remove max-w-4xl if you want the carousel to span the full width of its container
-            )}
-          >
-            {items.map((item, index) => (
-              <motion.div
-                initial={{
-                  opacity: 0,
-                  y: 20,
-                }}
-                animate={{
-                  opacity: 1,
-                  y: 0,
-                  transition: {
-                    duration: 0.5,
-                    delay: 0.2 * index,
-                    ease: "easeOut",
-                    once: true,
-                  },
-                }}
-                key={"card" + index}
-                className="last:pr-[5%] md:last:pr-[33%]  rounded-3xl"
-              >
-                {item}
-              </motion.div>
-            ))}
-          </div>
+<div className="flex flex-row justify-start gap-4 pl-4 pr-[5%] md:pr-[33%] max-w-7xl mx-auto">
+  {items.map((item, index) => (
+    <motion.div
+      initial={{
+        opacity: 0,
+        y: 20,
+      }}
+      animate={{
+        opacity: 1,
+        y: 0,
+        transition: {
+          duration: 0.5,
+          delay: 0.2 * index,
+          ease: "easeOut",
+          once: true,
+        },
+      }}
+      key={"card" + index}
+      className="rounded-3xl"
+    >
+      {item}
+    </motion.div>
+  ))}
+</div>
+
         </div>
         <div className="flex justify-end gap-2 mr-10">
           <button
