@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 
 interface CardData {
@@ -63,9 +64,9 @@ const Slider: React.FC = () => {
             key={card.id}
             className="card w-full flex-shrink-0 p-4 flex justify-center items-center flex-col [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))] shadow-lg rounded-lg "
           >
-            <img src={card.imgSrc} alt={card.header} className="mb-7 -mt-4 w-[30rem] h-[18rem] object-cover rounded border-cyan-600 border-[5px]" />
+            <img src={card.imgSrc}  alt={card.header} className="mb-7 -mt-4 w-[30rem] h-[18rem] object-cover rounded border-cyan-600 border-[5px]" />
             <h3 className="text-xl font-bold mb-2">{card.header}</h3>
-            <p className="text-gray-700">{card.paragraph}</p>
+            <p className="text-gray-700 mx-32 text-center">{card.paragraph}</p>
           </div>
         ))}
       </div>

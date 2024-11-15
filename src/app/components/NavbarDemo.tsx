@@ -77,7 +77,7 @@ import Link from "next/link";
 
 export default function NavbarDemo() {
   return (
-    <div className="relative w-full flex items-center justify-end -ml-32">
+    <div className="relative w-full z-[51] flex items-center justify-end -ml-32">
       <Navbar className="top-2" />
       <p className="text-black dark:text-white"></p>
     </div>
@@ -116,25 +116,25 @@ function Navbar({ className }: { className?: string }) {
       <div className="flex flex-col lg:flex-row justify-center items-center w-full lg:w-auto">
         <Menu setActive={setActive}>
           {/* HOME */}
-          <MenuItem setActive={setActive} active={active} item="HOME">
+          {/* <MenuItem setActive={setActive} active={active} item="HOME"> */}
             <Link href="/#home" passHref>
               <div className="hover:text-white text-lg font-semibold transition duration-300 ease-in-out cursor-pointer">
                 HOME
               </div>
             </Link>
-          </MenuItem>
+          {/* </MenuItem> */}
 
           {/* ABOUT */}
-          <MenuItem setActive={setActive} active={active} item="ABOUT">
+          {/* <MenuItem setActive={setActive} active={active} item="ABOUT"> */}
             <Link href="/#Aboutus" passHref scroll={true}>
               <div className="hover:text-white text-lg font-semibold transition duration-300 ease-in-out cursor-pointer">
                 ABOUT
               </div>
             </Link>
-          </MenuItem>
+          {/* </MenuItem> */}
 
           {/* CONTACT US */}
-          <MenuItem setActive={setActive} active={active} item="CONTACT US">
+          {/* <MenuItem setActive={setActive} active={active} item="CONTACT US"> */}
             <Link href="/#footer-section" passHref>
               <div
                 className="hover:text-white text-lg font-semibold transition duration-300 ease-in-out cursor-pointer"
@@ -143,7 +143,7 @@ function Navbar({ className }: { className?: string }) {
                 CONTACT US
               </div>
             </Link>
-          </MenuItem>
+          {/* </MenuItem> */}
         </Menu>
       </div>
     </div>

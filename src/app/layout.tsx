@@ -6,7 +6,7 @@ import BackgroundBeamsWithCollisionDemo from "@/app/components/herosection";
 import ThreeDCardDemo from "@/app/components/head";
 
 import BentoGridDemo from "@/app/components/actitivies"
-import AppleCardsCarouselDemo from "@/app/components/teams/membars"
+import TechTeamCards from "@/app/components/teams/membars"
 import MeteorsDemo from "@/app/components/meteors"
 import MeteorsD from "@/app/components/domain"
 import Slider from "@/app/components/Slider"
@@ -43,29 +43,29 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <NavbarDemo/>
+        <NavbarDemo />
 
         <BackgroundBeamsWithCollisionDemo />
-          <Slider/>
+        <Slider />
         <MeteorsDemo />
-        
+
         <MeteorsD />
-        
+
         <div className="flex place-content-around ">
-        <ThreeDCardDemo />
+          <ThreeDCardDemo />
         </div>
-       
+
         <div className="">
-       <AppleCardsCarouselDemo />
-       <LLCTeamCarouselDemo/>
-       <OperationalTeamCarouselDemo/>
-       <CreativeTeamCarouselDemo/>
-       <Outreach/>
-       <CONTENT/>
-       <DesignTeamCarouselDemo/>
-       
-</div>
-       <Footer/>
+          <TechTeamCards />
+          <LLCTeamCarouselDemo />
+          <OperationalTeamCarouselDemo />
+          <CreativeTeamCarouselDemo />
+          <Outreach />
+          <CONTENT />
+          <DesignTeamCarouselDemo />
+
+        </div>
+        <Footer />
         {children}
       </body>
     </html>

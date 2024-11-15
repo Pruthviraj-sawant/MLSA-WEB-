@@ -3,10 +3,11 @@ import Image from "next/image";
 import pruthvi from "@/app/img/villain 3.jpg";
 import React from "react";
 import { Carousel, Card } from "@/app/components/ui/apple-cards-carousel";
-
+import anushka from '@/assets/Content Creator Team/AnushkaB.jpg'
+import shruti from '@/assets/Content Creator Team/shruti.jpg'
 export default function CONTENTTEAM() {
   const cards = data.map((card, index) => (
-    <Card key={card.src} card={card} index={index} />
+    <Card key={index} card={card} index={index} />
   ));
 
   return (
@@ -19,35 +20,30 @@ export default function CONTENTTEAM() {
   );
 }
 
-const DummyContentOutreach = () => {
+const DummyContentOutreach = ({ title, description ,secondaryPhoto }) => {
+  if (!title) title = "Hello i am XYZ!!!"
+  if (!description) description = "Hii, I am a [degree/program] student specializing in [field, e.g., CSE, AI/ML, DS] and a proud member of the Microsoft Learn Student Ambassador (MLSA) program. I am passionate about technology and actively work to enhance my skills in [specific interest area, e.g., development, AI, data science]."
+
   return (
-    <>
-      {[...new Array(3).fill(1)].map((_, index) => {
-        return (
-          <div
-            key={"dummy-content" + index}
-            className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
-          >
-            <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-              <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                Connecting with communities and expanding our reach.
-              </span>{" "}
-              The outreach team is dedicated to building strong relationships,
-              fostering collaboration, and expanding our network to reach new
-              audiences and partners.
-            </p>
-            <Image
-              src={pruthvi}
-              alt="Outreach team mockup"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
-            />
-          </div>
-        );
-      })}
-    </>
+    <div
+      className="bg-[#F5F5F7] dark:bg-neutral-800 p-4 md:p-14 rounded-3xl mb-4"
+    >
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          {title}
+        </span>{"  "}
+      {description}
+      </p>
+      <Image
+        src={secondaryPhoto}
+        alt="Macbook mockup from Aceternity UI"
+        height="200"
+        width="200"
+        className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
+      />
+    </div>
   );
+
 };
 
 const data = [
@@ -55,18 +51,18 @@ const data = [
     category: "Community",
     title: "OMKAR RAO",
     src: "",
-    content: <DummyContentOutreach />,
+    content: <DummyContentOutreach title={"Hello, I am Omkar Rao"} secondaryPhoto={shruti} />,
   },
   {
     category: "Networking",
     title: "SHRUTI SURVE",
-    src: "",
-    content: <DummyContentOutreach />,
+    src: shruti,
+    content: <DummyContentOutreach title={"Hello, I am Shruti Surve"} secondaryPhoto={shruti}/>,
   },
   {
     category: "Networking",
     title: "ANUSHKA BAWKAR",
-    src: "",
-    content: <DummyContentOutreach />,
+    src: anushka,
+    content: <DummyContentOutreach title={"Hello, I am Anushka Bawkar"} secondaryPhoto={anushka} />,
   },
 ];
