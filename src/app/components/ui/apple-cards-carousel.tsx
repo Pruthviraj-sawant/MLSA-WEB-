@@ -256,12 +256,15 @@ export const Card = ({
             {card.title}
           </motion.p>
         </div>
+        
         <BlurImage
-          src={card.src}
-          alt={card.title}
-          fill
-          className="object-cover absolute z-10 inset-0"
-        />
+                src={card.src}
+                height={1200}
+                width={500}
+                
+                className="h-72 md:h-80 w-full object-cover"
+                alt="thumbnail"
+              />
       </motion.button>
     </>
   );
