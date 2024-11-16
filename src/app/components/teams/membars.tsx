@@ -41,7 +41,7 @@ const DummyContent = ({ title, description, secondaryPhoto }) => {
       <Image
         src={secondaryPhoto}
         alt="Macbook mockup from Aceternity UI"
-        height="200"
+        height="350"
         width="200"
         className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
       />
@@ -52,10 +52,10 @@ const DummyContent = ({ title, description, secondaryPhoto }) => {
 const data = [
   {
     category: "CSE",
-    title: "PRUTHVI SAWANT",
+    title: "PRUTHVIRAJ SAWANT",
     src: pruthvi,
     content: <DummyContent title={"I am Pruthvi"}
-      description={"Once a mechanical mind, now breaking into the world of code! From gears to algorithms, I'm on a mission in B.Tech CSE, tackling DSA in Java and web development alongside some of the best (and most competitive) minds. Disciplined by habit, funny by choice—let the code games begin!"}
+      description={"Once a mechanical mind, now breaking into the world of code! From gears to algorithms,MERN STACK DEVLOPER, tackling DSA in Java and web development alongside some of the best (and most competitive) minds. Disciplined by habit, funny by choice—let the code games begin!"}
       secondaryPhoto={pruthvi} />,
   }, {
     category: "DS",
