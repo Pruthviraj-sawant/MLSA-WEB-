@@ -5,6 +5,7 @@ import Image from "next/image";
 import shrey from "@/assets/shreyash.jpeg";
 import mait from '@/assets/maitili.jpg'
 import shubham from '@/assets/shubham.jpg'
+import siman from '@/assets/coordiantor ds.jpg'
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/app/components/ui/3d-card";
 import Link from "next/link";
@@ -150,7 +151,7 @@ export default function ThreeDCardDemo() {
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
               <Image
-                src={""}
+                src={siman}
                 height="1200"
                 width="500"
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl grayscale hover:grayscale-0 transition-all duration-300"

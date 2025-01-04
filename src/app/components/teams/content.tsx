@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import pruthvi from "@/app/img/villain 3.jpg";
+
 import React from "react";
 import { Carousel, Card } from "@/app/components/ui/apple-cards-carousel";
 import anushka from '@/assets/Content Creator Team/AnushkaB.jpg'
@@ -48,19 +48,19 @@ const DummyContentOutreach = ({ title, description ,secondaryPhoto }) => {
 
 const data = [
   {
-    category: "Community",
+    category: "CSE",
     title: "OMKAR RAO",
     src: "",
     content: <DummyContentOutreach title={"Hello, I am Omkar Rao"} secondaryPhoto={shruti} />,
   },
   {
-    category: "Networking",
+    category: "CSE",
     title: "SHRUTI SURVE",
     src: shruti,
     content: <DummyContentOutreach title={"Hello, I am Shruti Surve"} secondaryPhoto={shruti}/>,
   },
   {
-    category: "Networking",
+    category: "CSE",
     title: "ANUSHKA BAWKAR",
     src: anushka,
     content: <DummyContentOutreach title={"Hello, I am Anushka Bawkar"} secondaryPhoto={anushka} />,

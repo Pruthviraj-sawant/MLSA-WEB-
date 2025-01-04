@@ -8,6 +8,7 @@ import sana from '@/assets/SY Liberal Learning Course Team/Sana_LLC_Cordinator.j
 import siddharth from '@/assets/SY Liberal Learning Course Team/SIDDHARTHAMANE_LLCHEAD.jpg'
 import siddharth2 from '@/assets/SY Liberal Learning Course Team/SIDDHARTHAMANE_LLC_HEAD.jpg'
 import pulkeet from '@/assets/SY Liberal Learning Course Team/IMG_20240828_181946.jpg'
+import pri from "@/assets/SY Liberal Learning Course Team/Snapchat-26817218.jpg"
 import React from "react";
 import { Carousel, Card } from "@/app/components/ui/apple-cards-carousel";
 
@@ -62,7 +63,7 @@ const data = [
     title={"Hello, I am Siddharth Amane"} secondaryPhoto={siddharth2} />,
   },
   {
-    category: "Compliance",
+    category: "CSE , LLC CO-HEAD",
     title: "OM GAIKWAD",
     src: omGaikwad,
     content: <DummyContentLLC 
@@ -70,39 +71,15 @@ const data = [
     title={"Hello, I am Om Gaikwad"} secondaryPhoto={omGaikwad}  />,
   },
   {
-    category: "Legal",
-    title: "PRIYANKA UTTURE",
-    src: "",
+    category: "CSE",
+    title: "KAIF DARWAJKAR",
+    src: kaif,
     content: <DummyContentLLC 
-    description={"I am a AI/ML student specializing in Machine Learning and a proud member of the Microsoft Learn Student Ambassador (MLSA) program. I am passionate about technology and actively work to enhance my skills in pyhton, numpy, tensorflow."}
-    title={"Hello, I am Priyanka Utture"} secondaryPhoto={omGaikwad} />,
+    description={"From the world of circuits to the realm of code, I’ve transitioned from electronics to CSE with confidence and charisma. Now diving into Python, machine learning, and the dynamics of the stock market, I balance my studies with a strong knack for communication and human networking. Known for my energy, I aim to connect, inspire, and excel in this exciting journey."}
+    title={"Hello, I am Kaif Darwajkar"} secondaryPhoto={kaif} />,
   },
   {
-    category: "Compliance",
-    title: "ASHANA CHAVAN",
-    src: ashana,
-    content: <DummyContentLLC 
-    description={"I am a [degree/program] student specializing in [field, e.g., CSE, AI/ML, DS] and a proud member of the Microsoft Learn Student Ambassador (MLSA) program. I am passionate about technology and actively work to enhance my skills in [specific interest area, e.g., development, AI, data science]."}
-    title={"Hello, I am Ashana Chavan"} secondaryPhoto={ashana} />,
-  },
-  {
-    category: "Legal",
-    title: "SAYALI PATIL",
-    src: sayali,
-    content: <DummyContentLLC 
-    description={"I am a [degree/program] student specializing in [field, e.g., CSE, AI/ML, DS] and a proud member of the Microsoft Learn Student Ambassador (MLSA) program. I am passionate about technology and actively work to enhance my skills in [specific interest area, e.g., development, AI, data science]."}
-    title={"Hello, I am Sayali Patil"} secondaryPhoto={sayali} />,
-  },
-  {
-    category: "Compliance",
-    title: "SANA MUJAWAR",
-    src: sana,
-    content: <DummyContentLLC 
-    description={"I am a [degree/program] student specializing in [field, e.g., CSE, AI/ML, DS] and a proud member of the Microsoft Learn Student Ambassador (MLSA) program. I am passionate about technology and actively work to enhance my skills in [specific interest area, e.g., development, AI, data science]."}
-    title={"Hello, I am Sana Mujawar"} secondaryPhoto={sana} />,
-  },
-  {
-    category: "Legal",
+    category: "CSE",
     title: "PULKEET SAWANT",
     src: "",
     content: <DummyContentLLC 
@@ -110,11 +87,36 @@ const data = [
     title={"Hello, I am Pulkeet Sawant"} secondaryPhoto={omGaikwad} />,
   },
   {
-    category: "Compliance",
-    title: "KAIF DARWAJKAR",
-    src: kaif,
+    category: "",
+    title: "PRIYANKA UTTURE",
+    src: pri,
     content: <DummyContentLLC 
-    description={"From the world of circuits to the realm of code, I’ve transitioned from electronics to CSE with confidence and charisma. Now diving into Python, machine learning, and the dynamics of the stock market, I balance my studies with a strong knack for communication and human networking. Known for my energy, I aim to connect, inspire, and excel in this exciting journey."}
-    title={"Hello, I am Kaif Darwajkar"} secondaryPhoto={kaif} />,
+    description={"I am a AI/ML student specializing in Machine Learning and a proud member of the Microsoft Learn Student Ambassador (MLSA) program. I am passionate about technology and actively work to enhance my skills in pyhton, numpy, tensorflow."}
+    title={"Hello, I am Priyanka Utture"} secondaryPhoto={omGaikwad} />,
   },
+  {
+    category: "",
+    title: "ASHANA CHAVAN",
+    src: ashana,
+    content: <DummyContentLLC 
+    description={"I am a [degree/program] student specializing in [field, e.g., CSE, AI/ML, DS] and a proud member of the Microsoft Learn Student Ambassador (MLSA) program. I am passionate about technology and actively work to enhance my skills in [specific interest area, e.g., development, AI, data science]."}
+    title={"Hello, I am Ashana Chavan"} secondaryPhoto={ashana} />,
+  },
+  {
+    category: "",
+    title: "SAYALI PATIL",
+    src: sayali,
+    content: <DummyContentLLC 
+    description={"I am a [degree/program] student specializing in [field, e.g., CSE, AI/ML, DS] and a proud member of the Microsoft Learn Student Ambassador (MLSA) program. I am passionate about technology and actively work to enhance my skills in [specific interest area, e.g., development, AI, data science]."}
+    title={"Hello, I am Sayali Patil"} secondaryPhoto={sayali} />,
+  },
+  {
+    category: "",
+    title: "SANA MUJAWAR",
+    src: sana,
+    content: <DummyContentLLC 
+    description={"I am a [degree/program] student specializing in [field, e.g., CSE, AI/ML, DS] and a proud member of the Microsoft Learn Student Ambassador (MLSA) program. I am passionate about technology and actively work to enhance my skills in [specific interest area, e.g., development, AI, data science]."}
+    title={"Hello, I am Sana Mujawar"} secondaryPhoto={sana} />,
+  },
+ 
 ];

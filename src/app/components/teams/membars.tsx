@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import pruthvi from "@/assets/Tech Team/pruthvi.jpg"
+import pru from "@/assets/Tech Team/image.png"
 import sami from "@/assets/Tech Team/Sami_TechTeam.jpg"
 import yash from "@/assets/Tech Team/yash.jpeg"
 import prathamesh from "@/assets/Tech Team/prathmesh.jpg"
@@ -38,10 +39,10 @@ const DummyContent = ({ title, description, secondaryPhoto }) => {
         </span>{"  "}
         {description}
       </p>
-      <Image
+      <Image 
         src={secondaryPhoto}
         alt="Macbook mockup from Aceternity UI"
-        height="350"
+        height="200"
         width="200"
         className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
       />
@@ -53,10 +54,10 @@ const data = [
   {
     category: "CSE",
     title: "PRUTHVIRAJ SAWANT",
-    src: pruthvi,
+    src: pru,
     content: <DummyContent title={"I am Pruthvi"}
       description={"Once a mechanical mind, now breaking into the world of code! From gears to algorithms,MERN STACK DEVLOPER, tackling DSA in Java and web development alongside some of the best (and most competitive) minds. Disciplined by habit, funny by choice—let the code games begin!"}
-      secondaryPhoto={pruthvi} />,
+      secondaryPhoto={pru} />,
   }, {
     category: "DS",
     title: "PRATHMESH SARGAR",

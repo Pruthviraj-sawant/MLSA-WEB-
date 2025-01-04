@@ -49,25 +49,25 @@ const DummyContentCreative = ({ title, description ,secondaryPhoto }) => {
 
 const data = [
   {
-    category: "Innovation",
+    category: "CSE",
     title: "PRATHMESH PATIL",
     src: "",
     content: <DummyContentCreative title={"Hi! I am Prathamesh Patil"}  secondaryPhoto={veena}/>,
   },
   {
-    category: "Design",
+    category: "CSE",
     title: "AAHILAHMED NADAF",
     src: "",
     content: <DummyContentCreative title={"Hi! I am Aahilahmad Nadaf"}  secondaryPhoto={veena}/>,
   },
   {
-    category: "Innovation",
+    category: "CSE",
     title: "VEENA PATIL",
     src: veena,
     content: <DummyContentCreative title={"Hi! I am Veena Patil"}  secondaryPhoto={veena}/>,
   },
   {
-    category: "Design",
+    category: "CSE",
     title: "SHRIJYA PATIL",
     src: shreja,
     content: <DummyContentCreative title={"Hi! I am Shrijya Patil"} secondaryPhoto={shreja} />,

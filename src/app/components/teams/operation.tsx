@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import pruthvi from "@/app/img/villain 3.jpg";
+import arya from "@/app/img/B612_20241025_172303_558.jpg";
 import nayan from '@/assets/Operation and Documentation Team/Nayan Tambave_Head Operation & Documentation.jpeg'
 import shruti from '@/assets/Operation and Documentation Team/Shruti_DocumentationandOperation.jpg'
 import sohan from '@/assets/Operation and Documentation Team/Sohan Operation and documentation.jpg'
@@ -54,7 +54,7 @@ const DummyContentOperational = ({ title, description ,secondaryPhoto }) => {
 
 const data = [
   {
-    category: "CO-ORDINATOR",
+    category: "CSE",
     title: "NAYAN THAMBAVE",
     src: nayan,
     content: <DummyContentOperational 
@@ -62,31 +62,31 @@ const data = [
     secondaryPhoto={nayan} title={"Hi, I'm Nayan Thambave"} />,
   },
   {
-    category: "CO-ORDINATOR",
+    category: "CSE",
     title: "ARYA CHODANKAR",
-    src: "",
+    src: arya,
     content: <DummyContentOperational title={"Hi, I'm Arya Chodankar"} />,
   },
   {
-    category: "Efficiency",
+    category: "CSE",
     title: "ANISH BHOSALE",
     src: anish,
     content: <DummyContentOperational secondaryPhoto={anish} title={"Hi, I'm Anish Bhosle"}  />,
   },
   {
-    category: "Efficiency",
+    category: "CSE",
     title: "Shruti",
     src: shruti,
     content: <DummyContentOperational secondaryPhoto={shruti} title={"Hi, I'm Shruti"} />,
   },
   {
-    category: "Teamwork",
+    category: "CSE",
     title: "SOHAN KURALE",
     src: sohan,
     content: <DummyContentOperational secondaryPhoto={sohan} title={"Hi, I'm Sohan Kurale"} />,
   },
   {
-    category: "Teamwork",
+    category: "CSE",
     title: "VARUN SANGEWAR",
     src: varun,
     content: <DummyContentOperational title={"Hi, I'm Varun Sangewar"}  secondaryPhoto={varun}/>,
