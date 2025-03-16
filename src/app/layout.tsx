@@ -5,7 +5,7 @@ import NavbarDemo from "./components/NavbarDemo";
 import BackgroundBeamsWithCollisionDemo from "@/app/components/herosection";
 import ThreeDCardDemo from "@/app/components/head";
 
-import BentoGridDemo from "@/app/components/actitivies"
+// import BentoGridDemo from "@/app/components/actitivies"
 import TechTeamCards from "@/app/components/teams/membars"
 import MeteorsDemo from "@/app/components/meteors"
 import MeteorsD from "@/app/components/domain"

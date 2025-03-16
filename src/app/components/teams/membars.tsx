@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import pruthvi from "@/assets/Tech Team/pruthvi.jpg"
+// import pruthvi from "@/assets/Tech Team/pruthvi.jpg"
 import pru from "@/assets/Tech Team/image.png"
 import sami from "@/assets/Tech Team/Sami_TechTeam.jpg"
 import yash from "@/assets/Tech Team/yash.jpeg"

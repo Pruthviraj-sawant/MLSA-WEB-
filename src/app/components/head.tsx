@@ -1,6 +1,6 @@
 "use client";
 import mahesh from "@/assets/Mahesh Patil_Co-Head.jpg";
-import pru from "@/app/img/villain 3.jpg";
+// import pru from "@/app/img/villain 3.jpg";
 import Image from "next/image";
 import shrey from "@/assets/shreyash.jpeg";
 import mait from '@/assets/maitili.jpg'

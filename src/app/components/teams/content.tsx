@@ -7,8 +7,9 @@ import anushka from '@/assets/Content Creator Team/AnushkaB.jpg'
 import shruti from '@/assets/Content Creator Team/shruti.jpg'
 export default function CONTENTTEAM() {
   const cards = data.map((card, index) => (
-    <Card key={index} card={card} index={index} />
+    <Card key={index} card={{ ...card, src: typeof card.src === "string" ? card.src : card.src.src }} index={index} />
   ));
+  
 
   return (
     <div className="w-full h-full py-20">
@@ -45,24 +46,24 @@ const DummyContentOutreach = ({ title, description ,secondaryPhoto }) => {
   );
 
 };
-
 const data = [
   {
     category: "CSE",
     title: "OMKAR RAO",
-    src: "",
-    content: <DummyContentOutreach title={"Hello, I am Omkar Rao"} secondaryPhoto={shruti} />,
+    src: shruti, // Ensure a valid StaticImageData instead of an empty string
+    content: <DummyContentOutreach title="Hello, I am Omkar Rao" secondaryPhoto={shruti} />,
   },
   {
     category: "CSE",
     title: "SHRUTI SURVE",
     src: shruti,
-    content: <DummyContentOutreach title={"Hello, I am Shruti Surve"} secondaryPhoto={shruti}/>,
+    content: <DummyContentOutreach title="Hello, I am Shruti Surve" secondaryPhoto={shruti} />,
   },
   {
     category: "CSE",
     title: "ANUSHKA BAWKAR",
     src: anushka,
-    content: <DummyContentOutreach title={"Hello, I am Anushka Bawkar"} secondaryPhoto={anushka} />,
+    content: <DummyContentOutreach title="Hello, I am Anushka Bawkar" secondaryPhoto={anushka} />,
   },
 ];
+

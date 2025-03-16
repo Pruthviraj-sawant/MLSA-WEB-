@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import pruthvi from "@/app/img/villain 3.jpg";
+// import pruthvi from "@/app/img/villain 3.jpg";
 import asma from '@/assets/Media Hub/asma.jpeg'
 import siddhi from '@/assets/Media Hub/Siddhi_MediaHubMember.jpg'
 import prathamesh from '@/assets/Media Hub/bosco.jpg'

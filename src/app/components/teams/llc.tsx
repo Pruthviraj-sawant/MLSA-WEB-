@@ -7,7 +7,7 @@ import omGaikwad from '@/assets/SY Liberal Learning Course Team/Om_Gaikwad_co-he
 import sana from '@/assets/SY Liberal Learning Course Team/Sana_LLC_Cordinator.jpg'
 import siddharth from '@/assets/SY Liberal Learning Course Team/SIDDHARTHAMANE_LLCHEAD.jpg'
 import siddharth2 from '@/assets/SY Liberal Learning Course Team/SIDDHARTHAMANE_LLC_HEAD.jpg'
-import pulkeet from '@/assets/SY Liberal Learning Course Team/IMG_20240828_181946.jpg'
+// import pulkeet from '@/assets/SY Liberal Learning Course Team/IMG_20240828_181946.jpg'
 import pri from "@/assets/SY Liberal Learning Course Team/Snapchat-26817218.jpg"
 import React from "react";
 import { Carousel, Card } from "@/app/components/ui/apple-cards-carousel";
