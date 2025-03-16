@@ -30,7 +30,7 @@ Getting Started
 
 Clone the Repository
 
-git clone https://github.com/yourusername/mlsa-web.git
+git clone https://github.com/Pruthviraj-sawant/MLSA-WEB-.git
 cd mlsa-web
 
 Install Dependencies
