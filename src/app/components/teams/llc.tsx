@@ -33,8 +33,8 @@ export default function LLCTeamCarouselDemo() {
 
   return (
     <div className="w-full h-full py-20">
-      <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans mt-20">
-        CREATIVE TEAM
+      <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-200 font-sans mt-20">
+        LLC TEAM
       </h2>
       <Carousel items={cards} />
     </div>
@@ -43,9 +43,9 @@ export default function LLCTeamCarouselDemo() {
 
  const DummyContentLLC: React.FC<DummyContentProps> = ({ title = "Hello, I am XYZ!!!", description = "Hii, I am a [degree/program] student specializing in [field, e.g., CSE, AI/ML, DS] and a proud member of the Microsoft Learn Student Ambassador (MLSA) program.", secondaryPhoto }) => {
    return (
-     <div className="bg-[#F5F5F7] dark:bg-neutral-800 p-4 md:p-14 rounded-3xl mb-4">
-       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-         <span className="font-bold text-neutral-700 dark:text-neutral-200">{title}</span>{"  "}
+     <div className="bg-neutral-800 p-4 md:p-14 rounded-3xl mb-4">
+       <p className="text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+         <span className="font-bold text-neutral-200">{title}</span>{"  "}
          {description}
        </p>
        <Image

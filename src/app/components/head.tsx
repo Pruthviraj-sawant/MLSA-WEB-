@@ -21,11 +21,11 @@ export default function ThreeDCardDemo() {
       <div className="flex flex-wrap justify-center gap-2 mt-14">
         {/* Card 1 */}
         <CardContainer className="inter-var ml-12 mr-5 ">
-          <CardBody  className=" relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.9] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[18rem] h-[30rem] rounded-xl p-6 border">
-            <CardItem translateZ="50" className="text-xl font-bold text-neutral-600 dark:text-white">
+          <CardBody  className=" relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.9] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[18rem] h-[30rem] rounded-xl p-6 border">
+            <CardItem translateZ="50" className="text-xl font-bold  text-white">
               HEAD
             </CardItem>
-            <CardItem as="p" translateZ="60" className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300">
+            <CardItem as="p" translateZ="60" className=" text-sm max-w-sm mt-2 text-neutral-300">
             Shreyas Patil 
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
@@ -44,7 +44,7 @@ export default function ThreeDCardDemo() {
                 as={Link}
                 href="https://www.linkedin.com/in/shreypatil/?originalSubdomain=in"
                 target="__blank"
-                className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white -mt-24 border-white border-2"
+                className="px-4 py-2 rounded-xl text-xs font-normal text-white -mt-24 border-white border-2"
               >
                 LinkedIn →
               </CardItem>
@@ -62,11 +62,11 @@ export default function ThreeDCardDemo() {
 
         {/* Card 2 */}
         <CardContainer className="inter-var ml-16 mr-5">
-          <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.9] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[18rem] h-[30rem] rounded-xl p-6 border">
-            <CardItem translateZ="50" className="text-xl font-bold text-neutral-600 dark:text-white">
+          <CardBody className=" relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.9] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[18rem] h-[30rem] rounded-xl p-6 border">
+            <CardItem translateZ="50" className="text-xl font-bold text-white">
              CO-HEAD
             </CardItem>
-            <CardItem as="p" translateZ="60" className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300">
+            <CardItem as="p" translateZ="60" className=" text-sm max-w-sm mt-2 text-neutral-300">
               Mahesh Patil
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
@@ -85,7 +85,7 @@ export default function ThreeDCardDemo() {
                 as={Link}
                 href=""
                 target="__blank"
-                className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white -mt-24 border-white border-2"
+                className="px-4 py-2 rounded-xl text-xs font-normal text-white -mt-24 border-white border-2"
               >
                 LinkedIn →
               </CardItem>
@@ -102,8 +102,8 @@ export default function ThreeDCardDemo() {
 
         {/* Card 3 */}
         <CardContainer className="inter-var ml-16 mr-5">
-          <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.9] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[18rem] h-[30rem] rounded-xl p-6 border">
-            <CardItem translateZ="50" className="text-xl font-bold text-neutral-600 dark:text-white">
+          <CardBody className=" relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.9] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[18rem] h-[30rem] rounded-xl p-6 border">
+            <CardItem translateZ="50" className="text-xl font-bold text-white">
               DEPT-CO (CSE)
             </CardItem>
             <CardItem as="p" translateZ="60" className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300">
@@ -125,7 +125,7 @@ export default function ThreeDCardDemo() {
                 as={Link}
                 href=""
                 target="__blank"
-                className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white -mt-24 border-white border-2"
+                className="px-4 py-2 rounded-xl text-xs font-normal text-white -mt-24 border-white border-2"
               >
                 LinkedIn →
               </CardItem>
@@ -142,11 +142,11 @@ export default function ThreeDCardDemo() {
 
         {/* Card 4 */}
         <CardContainer className="inter-var ml-16 mr-5">
-          <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.9] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[18rem] h-[30rem] rounded-xl p-6 border">
-            <CardItem translateZ="50" className="text-xl font-bold text-neutral-600 dark:text-white">
+          <CardBody className="relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.9] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[18rem] h-[30rem] rounded-xl p-6 border">
+            <CardItem translateZ="50" className="text-xl font-bold text-white">
             DEPT-CO (DS)
             </CardItem>
-            <CardItem as="p" translateZ="60" className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300">
+            <CardItem as="p" translateZ="60" className="text-sm max-w-sm mt-2 text-neutral-300">
               SIMEEN PATHAN
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
@@ -165,7 +165,7 @@ export default function ThreeDCardDemo() {
                 as={Link}
                 href=""
                 target="__blank"
-                className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white -mt-24 border-white border-2"
+                className="px-4 py-2 rounded-xl text-xs font-normal text-white -mt-24 border-white border-2"
               >
                 LinkedIn →
               </CardItem>
@@ -182,11 +182,11 @@ export default function ThreeDCardDemo() {
 
         {/* Card 5 */}
         <CardContainer className="inter-var ml-16 mr-5">
-          <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.9] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[18rem] h-[30rem] rounded-xl p-6 border">
-            <CardItem translateZ="50" className="text-xl font-bold text-neutral-600 dark:text-white">
+          <CardBody className=" relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.9] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[18rem] h-[30rem] rounded-xl p-6 border">
+            <CardItem translateZ="50" className="text-xl font-bold  text-white">
             DEPT-CO (AIML)
             </CardItem>
-            <CardItem as="p" translateZ="60" className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300">
+            <CardItem as="p" translateZ="60" className=" text-sm max-w-sm mt-2 text-neutral-300">
              SHUBHAM BABANVAR
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
