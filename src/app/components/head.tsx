@@ -15,7 +15,7 @@ export default function ThreeDCardDemo() {
   return (
     
     <div className="flex flex-col items-center w-full px-4">
-      <div className="text-[2rem]  md:text-[3rem] mt-20 flex space-x-2">
+      <div className="text-[2rem]  md:text-[3rem] text-white mt-20 flex space-x-2">
        Our <div className="text-blue-700 ml-4">Leads</div>
       </div>
       <div className="flex flex-wrap justify-center gap-2 mt-14">
@@ -36,7 +36,7 @@ export default function ThreeDCardDemo() {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl grayscale hover:grayscale-0 transition-all duration-300"
                 alt="thumbnail"
               />
-              <p className="text-[14px]">β -Microsoft Learn Student Ambassadors | Python | Machine Learning | Artificial Intelligence | Web Development </p>
+              <p className="text-[14px] text-white">β -Microsoft Learn Student Ambassadors | Python | Machine Learning | Artificial Intelligence | Web Development </p>
             </CardItem>
             <div className="flex justify-between items-center mt-20">
               <CardItem
@@ -77,7 +77,7 @@ export default function ThreeDCardDemo() {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl grayscale hover:grayscale-0 transition-all duration-300"
                 alt="thumbnail"
               />
-              <p className="text-[14px]"> IOT | Python | Machine Learning | Artificial Intelligence </p>
+              <p className="text-[14px] teaxt-white"> IOT | Python | Machine Learning | Artificial Intelligence </p>
             </CardItem>
             <div className="flex justify-between items-center mt-20">
               <CardItem
@@ -117,7 +117,7 @@ export default function ThreeDCardDemo() {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl grayscale hover:grayscale-0 transition-all duration-300"
                 alt="thumbnail"
               />
-                 <p className="text-[14px]"> Python | Android Developer | Website Developer | </p>
+                 <p className="text-[14px] text-white"> Python | Android Developer | Website Developer | </p>
             </CardItem>
             <div className="flex justify-between items-center mt-20">
               <CardItem
@@ -157,7 +157,7 @@ export default function ThreeDCardDemo() {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl grayscale hover:grayscale-0 transition-all duration-300"
                 alt="thumbnail"
               />
-              <p className="text-[14px]">Microsoft Learn Student Ambassador (β)| Open Source Contributor | Cybersecurity | Data Science | Cloud Computing </p>
+              <p className="text-[14px] text-white">Microsoft Learn Student Ambassador (β)| Open Source Contributor | Cybersecurity | Data Science | Cloud Computing </p>
             </CardItem>
             <div className="flex justify-between items-center mt-20">
               <CardItem
@@ -197,7 +197,7 @@ export default function ThreeDCardDemo() {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl grayscale hover:grayscale-0 transition-all duration-300"
                 alt="thumbnail"
               />
-              <p className="text-[14px]"> Data Analytics | Python | Machine Learning | Artificial Intelligence </p>
+              <p className="text-[14px] text-white"> Data Analytics | Python | Machine Learning | Artificial Intelligence </p>
             </CardItem>
             <div className="flex justify-between items-center mt-20">
               <CardItem
