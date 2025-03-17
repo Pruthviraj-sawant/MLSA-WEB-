@@ -77,7 +77,7 @@ export default function ThreeDCardDemo() {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl grayscale hover:grayscale-0 transition-all duration-300"
                 alt="thumbnail"
               />
-              <p className="text-[14px] teaxt-white"> IOT | Python | Machine Learning | Artificial Intelligence </p>
+              <p className="text-[14px] text-white"> IOT | Python | Machine Learning | Artificial Intelligence </p>
             </CardItem>
             <div className="flex justify-between items-center mt-20">
               <CardItem
