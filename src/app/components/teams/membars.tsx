@@ -7,7 +7,7 @@ import yash from "@/assets/Tech Team/yash.jpeg"
 import prathamesh from "@/assets/Tech Team/prathmesh.jpg"
 import React from "react";
 import { Carousel, Card } from "@/app/components/ui/apple-cards-carousel";
-
+import userprofile from "@/app/img/image.png";
 interface DummyContentProps {
   title?: string;
   description?: string;

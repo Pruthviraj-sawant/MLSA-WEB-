@@ -4,7 +4,7 @@ import React from "react";
 import { Carousel, Card } from "@/app/components/ui/apple-cards-carousel";
 import anushka from '@/assets/Content Creator Team/AnushkaB.jpg';
 import shruti from '@/assets/Content Creator Team/shruti.jpg';
-
+import userprofile from "@/app/img/image.png";
 // Define TypeScript Interface for Props
 interface DummyContentProps {
   title?: string;
@@ -35,7 +35,7 @@ const data = [
   {
     category: "CSE",
     title: "OMKAR RAO",
-    src: "",
+    src: userprofile,
     content: <DummyContentOutreach title="Hello, I am Omkar Rao" secondaryPhoto={shruti.src} />,
   },
   {

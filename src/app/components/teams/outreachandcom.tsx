@@ -10,7 +10,7 @@ import samruddhi from '@/assets/Outreach & Communication Team/samruddhi.jpg'
 import suhana from '@/assets/Outreach & Communication Team/suhana.jpg'
 import React from "react";
 import { Carousel, Card } from "@/app/components/ui/apple-cards-carousel";
-
+import userprofile from "@/app/img/image.png";
 interface DummyContentProps {
   title?: string;
   description?: string;
@@ -86,7 +86,7 @@ const data = [
   {
     category: "Product",
     title: "SNEHA GAIKWAD",
-    src: "",
+    src: userprofile,
     content: <DummyContent title={"Hey!, I'm Sneha Gaikwad"} secondaryPhoto={""}/>,
   },
 

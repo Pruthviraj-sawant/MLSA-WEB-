@@ -5,7 +5,7 @@ import shreja from '@/assets/Creative Team/ShrijyaPatil.jpg'
 import veena from '@/assets/Creative Team/Veena Patil_Creative Team.jpg'
 import React from "react";
 import { Carousel, Card } from "@/app/components/ui/apple-cards-carousel";
-
+import userprofile from "@/app/img/image.png";
 
 interface DummyContentProps {
   title?: string;
@@ -58,13 +58,13 @@ const data = [
   {
     category: "CSE",
     title: "PRATHMESH PATIL",
-    src: "",
+    src: userprofile,
     content: <DummyContentCreative title={"Hi! I am Prathamesh Patil"}  secondaryPhoto={""}/>,
   },
   {
     category: "CSE",
     title: "AAHILAHMED NADAF",
-    src: "",
+    src: userprofile,
     content: <DummyContentCreative title={"Hi! I am Aahilahmad Nadaf"}  secondaryPhoto={""}/>,
   },
   {

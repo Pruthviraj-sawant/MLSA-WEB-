@@ -11,7 +11,7 @@ import siddharth2 from '@/assets/SY Liberal Learning Course Team/SIDDHARTHAMANE_
 import pri from "@/assets/SY Liberal Learning Course Team/Snapchat-26817218.jpg"
 import React from "react";
 import { Carousel, Card } from "@/app/components/ui/apple-cards-carousel";
-
+import userprofile from "@/app/img/image.png";
 interface DummyContentProps {
   title?: string;
   description?: string;
@@ -87,13 +87,13 @@ const data = [
   {
     category: "CSE",
     title: "PULKEET SAWANT",
-    src: "",
+    src: userprofile,
     content: <DummyContentLLC 
     description={"I am a [degree/program] student specializing in [field, e.g., CSE, AI/ML, DS] and a proud member of the Microsoft Learn Student Ambassador (MLSA) program. I am passionate about technology and actively work to enhance my skills in [specific interest area, e.g., development, AI, data science]."}
     title={"Hello, I am Pulkeet Sawant"} secondaryPhoto={omGaikwad.src} />,
   },
   {
-    category: "",
+    category: "CSE",
     title: "PRIYANKA UTTURE",
     src: pri,
     content: <DummyContentLLC 
@@ -101,7 +101,7 @@ const data = [
     title={"Hello, I am Priyanka Utture"} secondaryPhoto={omGaikwad.src} />,
   },
   {
-    category: "",
+    category: "CSE",
     title: "ASHANA CHAVAN",
     src: ashana,
     content: <DummyContentLLC 
@@ -109,7 +109,7 @@ const data = [
     title={"Hello, I am Ashana Chavan"} secondaryPhoto={ashana.src} />,
   },
   {
-    category: "",
+    category: "CSE",
     title: "SAYALI PATIL",
     src: sayali,
     content: <DummyContentLLC 
@@ -117,9 +117,9 @@ const data = [
     title={"Hello, I am Sayali Patil"} secondaryPhoto={sayali.src} />,
   },
   {
-    category: "",
+    category: "CSE",
     title: "SANA MUJAWAR",
-    src: sana,
+    src: userprofile,
     content: <DummyContentLLC 
     description={"I am a [degree/program] student specializing in [field, e.g., CSE, AI/ML, DS] and a proud member of the Microsoft Learn Student Ambassador (MLSA) program. I am passionate about technology and actively work to enhance my skills in [specific interest area, e.g., development, AI, data science]."}
     title={"Hello, I am Sana Mujawar"} secondaryPhoto={sana.src} />,
