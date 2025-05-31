@@ -59,39 +59,39 @@ export default function  Outreach() {
  };
 const data = [
   {
-    category: "Artificial Intelligence",
+    category: "CSE",
     title: "SIDDHANT KIERTE",
     src: siddhant,
   content: <DummyContent title={"Hey!, I'm Siddhant kierte"} secondaryPhoto={siddhant2.src} />,
   },
   {
-    category: "Product",
+    category: "CSE",
     title: "Anuksha",
     src: anuksha,
     content: <DummyContent title={"Hey!, I'm Anuksha"} secondaryPhoto={anuksha2.src} />,
   },
   {
-    category: "Productivity",
+    category: "CSE",
     title: "SAMRUDDHI PATIL",
     src: samruddhi,
     content: <DummyContent title={"Hey!, I'm Samruddhi"} secondaryPhoto={samruddhi.src}  />,
   },
   {
-    category: "Product",
+    category: "CSE",
     title: "SUHANA PATEL",
     src: suhana,
     content: <DummyContent title={"Hey!, I'm Suhana Patel"} secondaryPhoto={suhana.src} />,
   },
 
   {
-    category: "Product",
+    category: "CSE",
     title: "SNEHA GAIKWAD",
     src: userprofile,
     content: <DummyContent title={"Hey!, I'm Sneha Gaikwad"} secondaryPhoto={""}/>,
   },
 
   {
-    category: "Product",
+    category: "CSE",
     title: "PRADEEP SINGH",
     src: pradeep,
     content: <DummyContent title={"Hey!, I'm Pradeep Singh"} secondaryPhoto={""}/>,
